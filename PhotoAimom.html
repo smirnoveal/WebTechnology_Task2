@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery Moscow</title>
+</head>
+<body>
+  <!-- Heading Name -->
+  <div class="heading">
+    <h1>Фотогалерея Москвы</h1>
+  </div>
+    <!-- Image Gallery section all image in one div -->
+    <div class="gallery">
+<img src="image/citadel.jpg" alt="Кремль" class="gallery-img" onclick="showImage(src)">
+<img src="image/Alexandrovsky Garden.jpg" alt="Александровский Сад" class="gallery-img" onclick="showImage(src)">
+<img src="image/cathedral.jpg" alt="Собор Василия Блаженного" class="gallery-img" onclick="showImage(src)">
+<img src="image/HistoryMuseum.jpg" alt="Исторический Музей" class="gallery-img" onclick="showImage(src)">
+<img src="image/Moscow River.jpg" alt="Москва-река" class="gallery-img" onclick="showImage(src)">
+<img src="image/Megapolis.jpg" alt="Мегаполис" class="gallery-img" onclick="showImage(src)">
+<img src="image/MoscowCity.jpg" alt="Москва-сити" class="gallery-img" onclick="showImage(src)">
+<img src="image/Red Square.jpg" alt="Красная Площадь" class="gallery-img" onclick="showImage(src)">
+<img src="image/Pyotr I.jpg"alt="Памятник Петру I" class="gallery-img" onclick="showImage(src)"> 
+<img src="image/Garden Ring.jpg"alt="Садовое Кольцо" class="gallery-img" onclick="showImage(src)">  
+<img src="image/Night Moscow.jpg"alt="Ночная Москва" class="gallery-img" onclick="showImage(src)">    
+<img src="image/Roller in the Red Sqare.jpeg"alt="Каток на Красной Площади" class="gallery-img" onclick="showImage(src)">  
+<img src="image/MGU.jpg"alt="Московский Государственный Университет" class="gallery-img" onclick="showImage(src)">  
+<img src="image/TTK.jpg"alt="Третье транспортное кольцо" class="gallery-img" onclick="showImage(src)">
+<img src="image/Ebankment.jpg" alt="Кремлевская набережная" class="gallery-img" onclick="showImage(src)">  
+<img src="image/ХХС.jpg" alt="Храм Христа Спасителя" class="gallery-img" onclick="showImage(src)">      
+</div>
+   
+  <!-- Image containter where image will show in big size -->
+      <div class="image-popup-container" id="imagePopup">
+        <span class="close-button" onclick="closeImage()">×</span>
+        <img src="" alt="Popup Image" id="popupImage">
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
